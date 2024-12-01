@@ -11,8 +11,11 @@ Features
 5.TypeScript: The app is built with TypeScript for better development experience and type safety.
 
 Setup
-1.Clone the Repository:
-This will start the application on http://localhost:5173.
+1.Clone the Repository: git clone https://github.com/Ramyavijaykumar/my-todo-app.git
+2.cd my-todo-app
+3.Install Dependencies: Install all required dependencies by running: npm install
+4.Run the Application: To run the app in development mode, use: npm run dev
+5.This will start the application on http://localhost:5173.
 
 File Structure
 
