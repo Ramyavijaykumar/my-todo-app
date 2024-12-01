@@ -1,33 +1,51 @@
+# React TODO List Application  
 
-TODO List Application
+This is a simple TODO list application built using React. The application allows users to add, view, and delete TODO items.  
 
-A simple TODO list application built with React, TypeScript, and Redux. This app allows users to add, view, and delete TODOs. The application is designed to be easy to understand and demonstrates core React and Redux concepts.
+## Features  
+- **Add TODOs**: Users can input and add new tasks to the list.  
+- **View TODOs**: A list of added tasks is displayed.  
+- **Delete TODOs**: Users can remove tasks when completed.  
 
-Features
-1.Add a TODO: Users can input a new TODO item.
-2.View TODOs: Users can see a list of all TODO items.
-3.Delete a TODO: Users can delete a TODO by clicking the "Remove" button.
-4.State Management: Redux is used to manage the state of the TODO list.
-5.TypeScript: The app is built with TypeScript for better development experience and type safety.
+## Technologies Used  
+- **React**  
+- **TypeScript**  
+- **Redux**  
+- **Vite** (build tool)  
 
-Setup
+## Getting Started  
+
+### Prerequisites  
+Ensure you have the following installed:  
+- [Node.js](https://nodejs.org/) (v16 or later)  
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)  
+
+### Installation  
 1.Clone the Repository: git clone https://github.com/Ramyavijaykumar/my-todo-app.git
 2.cd my-todo-app
 3.Install Dependencies: Install all required dependencies by running: npm install
 4.Run the Application: To run the app in development mode, use: npm run dev
 5.This will start the application on http://localhost:5173.
 
-File Structure
+Folder Structure:
+my-todo-app/
+├── index.html
+├── package-lock.json
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── src/
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── styles.css
+│   ├── components/
+│   │   ├── TodoApp.tsx
+│   │   ├── TodoInput.tsx
+│   │   └── TodoList.tsx
+│   └── store/
+│       ├── store.ts
+│       └── todoSlice.ts
 
-src/: Contains all the source code for the application.
-components/: Contains the React components (e.g., TodoInput.tsx, TodoList.tsx).
-store/: Contains the Redux store and slice files (store.ts, todoSlice.ts).
-App.tsx: The main React component that renders the TODO list and input form.
-Technologies Used
-React: A JavaScript library for building user interfaces.
-Redux: A state management library to manage the app's state globally.
-TypeScript: A superset of JavaScript that adds static typing to the language.
-Vite: A fast development build tool for React apps.
 
 How It Works
 1.Adding TODOs:
