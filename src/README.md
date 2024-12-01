@@ -1,3 +1,4 @@
+
 TODO List Application
 
 A simple TODO list application built with React, TypeScript, and Redux. This app allows users to add, view, and delete TODOs. The application is designed to be easy to understand and demonstrates core React and Redux concepts.
